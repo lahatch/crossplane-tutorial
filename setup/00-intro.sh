@@ -53,7 +53,7 @@ kubectl apply \
 
 helm upgrade --install crossplane crossplane \
     --repo https://charts.crossplane.io/stable \
-    --namespace crossplane-system --create-namespace --wait --version 1.18.0
+    --namespace crossplane-system --create-namespace --wait --version 2.3.3
 
 kubectl apply \
     --filename providers/provider-kubernetes-incluster.yaml
