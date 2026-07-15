@@ -12,7 +12,7 @@ spec:
     networkInterface:
       - networkRef:
           name: dot-network
-    zone: eu-west1-b
+    zone: us-east1-b
     desiredStatus: RUNNING
     allowStoppingForUpdate: true
 ---
